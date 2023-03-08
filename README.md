@@ -19,47 +19,40 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html
 https://docs.conda.io/en/latest/
 
 https://docs.conda.io/en/latest/miniconda.html
+
 Open Anaconda Prompt
+```
 cd C:\home\kamaraj\learning\ml\sample_project
 conda create --prefix ./env pandas numpy matplotlib scikit-learn
+```
 
-    Windows 64-bit packages of scikit-learn can be accelerated using scikit-learn-intelex.
-    More details are available here: https://intel.github.io/scikit-learn-intelex
+To activate this environment, use `conda activate C:\home\kamaraj\learning\ml\sample_project\env`
+To deactivate an active environment, use `conda deactivate`
 
-    For example:
-
-        $ conda install scikit-learn-intelex
-        $ python -m sklearnex my_application.py
-
-
-done
-#
-# To activate this environment, use
-#
-#     $ conda activate C:\home\kamaraj\learning\ml\sample_project\env
-#
-# To deactivate an active environment, use
-#
-#     $ conda deactivate
-
+```
 conda activate C:\home\kamaraj\learning\ml\sample_project\env
 conda install jupyter
 conda install seaborn
 jupyter notebook
+```
 
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import sklearn
+```
 
+```
 conda deactivate
 conda env list
 conda list
 conda search scikit-learn --info
 conda update scikit-learn
+```
 
-export current environment: conda env export > environment.yml
-create new environment using exported yaml: conda env create --prefix ./env -f ./environment.yml
+export current environment: `conda env export > environment.yml`
+create new environment using exported yaml: `conda env create --prefix ./env -f ./environment.yml`
 
 Sharing your Conda Environment
 There may come a time where you want to share the contents of your Conda environment.
@@ -67,12 +60,20 @@ This could be to share a project workflow with a colleague or with someone else 
 There a couple of ways to do this:
 1. Share your entire project folder (including the environment folder containing all of your Conda packages).
 2. Share a .yml (pronounced YAM-L) file of your Conda environment.
+
 The benefit of 1 is it's a very simple setup, share the folder, activate the environment, run the code. However, an environment folder can be quite a large file to share.
+
 That's where 2 comes in. A .yml is basically a text file with instructions to tell Conda how to set up an environment.
+
 For example, to export the environment we created earlier at /Users/daniel/Desktop/project_1/env as a YAML file called environment.yml we can use the command:
+```
 conda env export --prefix /Users/daniel/Desktop/project_1/env > environment.yml
-After running the export command, we can see our new .yml file stored as environment.yml.
+```
+
+After running the export command, we can see our new `.yml` file stored as `environment.yml`.
+
 A sample .yml file might look like the following:
+```
 name: my_ml_env
 dependencies:
   - numpy
@@ -80,10 +81,17 @@ dependencies:
   - scikit-learn
   - jupyter
   - matplotlib
+```
+
 Of course, your actual file will depend on the packages you've installed in your environment.
+
 For more on sharing an environment, check out the Conda documentation on sharing environments https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment.
+
 Finally, to create an environment called env_from_file from a .yml file called environment.yml, you can run the command:
+```
 conda env create --file environment.yml --name env_from_file
+```
+
 For more on creating an environment from a .yml file, check out the Conda documentation on creating an environment from a .yml file https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file.
 
 
