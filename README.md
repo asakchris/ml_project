@@ -22,15 +22,15 @@ https://docs.conda.io/en/latest/miniconda.html
 
 Open Anaconda Prompt
 ```
-cd C:\home\kamaraj\learning\ml\sample_project
+cd ~\ml\sample_project
 conda create --prefix ./env pandas numpy matplotlib scikit-learn
 ```
 
-To activate this environment, use `conda activate C:\home\kamaraj\learning\ml\sample_project\env`
+To activate this environment, use `conda activate ~\ml\sample_project\env`
 To deactivate an active environment, use `conda deactivate`
 
 ```
-conda activate C:\home\kamaraj\learning\ml\sample_project\env
+conda activate ~\ml\sample_project\env
 conda install jupyter
 conda install seaborn
 jupyter notebook
