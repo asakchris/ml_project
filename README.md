@@ -99,19 +99,28 @@ https://jupyter-notebook.readthedocs.io/en/stable/
 https://www.dataquest.io/blog/jupyter-notebook-tutorial/
 
 https://pandas.pydata.org/pandas-docs/stable/
+
 https://github.com/mrdbourke/zero-to-mastery-ml/blob/master/section-2-data-science-and-ml-tools/introduction-to-pandas-video.ipynb
+
 https://github.com/mrdbourke/zero-to-mastery-ml/blob/master/section-2-data-science-and-ml-tools/introduction-to-pandas.ipynb
+
 https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#min
 
 
 https://numpy.org/doc/
+
 https://github.com/mrdbourke/zero-to-mastery-ml/blob/master/section-2-data-science-and-ml-tools/introduction-to-numpy.ipynb
+
 https://www.mathsisfun.com/data/standard-deviation.html
+
 https://numpy.org/doc/stable/user/basics.broadcasting.html
+
 https://jakevdp.github.io/PythonDataScienceHandbook/02.02-the-basics-of-numpy-arrays.html
+
 http://jalammar.github.io/visual-numpy/
 
 https://www.mathsisfun.com/algebra/matrix-multiplying.html
+
 http://matrixmultiplication.xyz/
 
 https://matplotlib.org/3.1.1/contents.html
@@ -119,30 +128,43 @@ https://matplotlib.org/3.1.1/contents.html
 
 ### Scikit-learn
 https://github.com/mrdbourke/zero-to-mastery-ml/blob/master/section-2-data-science-and-ml-tools/introduction-to-scikit-learn.ipynb
+
 https://scikit-learn.org/stable/user_guide.html
+
 https://github.com/mrdbourke/zero-to-mastery-ml/blob/master/section-2-data-science-and-ml-tools/scikit-learn-what-were-covering.ipynb
+
 https://github.com/mrdbourke/zero-to-mastery-ml/blob/master/section-2-data-science-and-ml-tools/scikit-learn-workflow-example.ipynb
 
 https://rahul-saini.medium.com/feature-scaling-why-it-is-required-8a93df1af310
+
 https://benalexkeen.com/feature-scaling-with-scikit-learn/
+
 https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/
 
+
 https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
+
 https://scikit-learn.org/0.15/modules/model_evaluation.html
 
 #### Metrics
 https://scikit-learn.org/stable/modules/model_evaluation.html
+
 ROC and AUC https://www.youtube.com/watch?v=4jRBRDbJemM&ab_channel=StatQuestwithJoshStarmer
+
 https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c
+
 https://stackoverflow.com/questions/17197492/is-there-a-library-function-for-root-mean-square-error-rmse-in-python/37861832#37861832
 
 ### Interviews
 https://github.com/rohandm/data-science-interviews
 
 https://github.com/mrdbourke/zero-to-mastery-ml/blob/master/section-2-data-science-and-ml-tools/introduction-to-scikit-learn-video.ipynb
+
 https://github.com/mrdbourke/zero-to-mastery-ml/blob/master/section-2-data-science-and-ml-tools/introduction-to-scikit-learn.ipynb
 
+
 https://github.com/mrdbourke/zero-to-mastery-ml/blob/master/section-2-data-science-and-ml-tools/scikit-learn-exercises.ipynb
+
 https://github.com/mrdbourke/zero-to-mastery-ml/blob/master/section-2-data-science-and-ml-tools/scikit-learn-exercises-solutions.ipynb
 
 UCI Machine Learning repository - https://archive.ics.uci.edu/ml/datasets/heart+disease
