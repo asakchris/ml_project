@@ -1,2 +1,5 @@
 env/
 .ipynb_checkpoints/
+bulldozer-price-prediction/data/bluebook-for-bulldozers/Train.csv
+bulldozer-price-prediction/data/bluebook-for-bulldozers/TrainAndValid.csv
+bulldozer-price-prediction/data/bluebook-for-bulldozers/train_tmp.csv
